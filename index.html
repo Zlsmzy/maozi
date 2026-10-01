@@ -1,86 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人主页</title>
-    <style>
-        :root {
-            --primary: #3b82f6;
-            --text: #1f2937;
-            --bg: #f9fafb;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: var(--bg);
-            color: var(--text);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 600px;
-            padding: 2rem;
-            text-align: center;
-        }
-        .avatar {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            background: #e5e7eb;
-            margin: 0 auto 1.5rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            color: #9ca3af;
-        }
-        h1 {
-            font-size: 2rem;
-            margin: 0 0 0.5rem;
-        }
-        .tagline {
-            color: #6b7280;
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
-        }
-        .links {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        .links a {
-            display: inline-block;
-            padding: 0.75rem 1.5rem;
-            background: var(--primary);
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            transition: opacity 0.2s;
-        }
-        .links a:hover {
-            opacity: 0.9;
-        }
-        .links a.secondary {
-            background: #e5e7eb;
-            color: var(--text);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的炫酷网页</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="avatar">😊</div>
-        <h1>你好，我是 [尼玛币]</h1>
-        <p class="tagline">[我要把你们的浮木都鲨了]</p>
-        
-        <div class="links">
-            <a href="https://github.com/Zlsmzy" target="_blank">GitHub</a>
-            <a href="mailto:zlsmzyoo@gamil.com" class="secondary">联系我</a>
-        </div>
-    </div>
+  <div class="card">
+    <h1>✨ 孩子们我是贝利亚 ✨</h1>
+    <p>我要来入侵地球了，奥特曼已经被我打败了</p>
+    <button id="btn">我要阻止你</button>
+    <p id="msg"></p>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
